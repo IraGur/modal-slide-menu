@@ -1,0 +1,44 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modal & Slide Menu</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Slide Menu -->
+    <!-- Hamburger icon -->
+    <div class="hamburger-icon" id="icon">
+        <div class="icon-1" id="a"></div>
+        <div class="icon-2" id="b"></div>
+        <div class="icon-3" id="c"></div>
+        <div class="clear"></div>
+    </div>
+    <!-- -------------- -->
+    <div class="navigation">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html">Services</a></li>
+            <li><a href="index.html">About</a></li>
+            <li><a href="index.html">Contact</a></li>
+        </ul>
+    </div>
+
+    <!-- Modal -->
+    <section class="overlay hidden">
+        <div class="modal">
+            <button class="btn-close">⨉</button>
+            <img src="images/SuccessKid.jpg" alt="success">
+        </div>
+
+    </section>
+
+    <button class="btn-open">Open Modal</button>
+
+    <p class='blank-element-for-scrolling'></p>
+    <script src="script.js"></script>
+</body>
+
+</html>
